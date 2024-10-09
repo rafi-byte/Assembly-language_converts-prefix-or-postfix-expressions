@@ -1,19 +1,19 @@
 
 
 ```markdown
-# Assembly Code Generator for Prefix, Postfix, and Infix Expressions
+Assembly Code Generator for Prefix, Postfix, and Infix Expressions
 
-## Overview
+Overview
 
 This project is designed to convert prefix, postfix, and infix expressions into assembly language code. The program is capable of processing arithmetic and logical expressions and generating one, two, and three-address assembly instructions.
 
-### Key Features:
+Key Features:
 - Converts prefix to postfix and vice versa.
 - Generates one, two, and three-address assembly code from prefix/postfix expressions.
 - Handles infix expressions by first converting them to prefix/postfix notation.
 - Efficient conversion process with an average conversion time of 0.5 seconds for simple expressions.
 
-## Table of Contents
+Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Installation](#installation)
@@ -22,15 +22,15 @@ This project is designed to convert prefix, postfix, and infix expressions into 
 6. [Results](#results)
 7. [Future Work](#future-work)
 
-## Introduction
+Introduction
 Assembly language is a low-level programming language that provides a more readable and understandable form of machine language. This project focuses on simplifying the process of generating assembly code from common arithmetic expressions. It supports the conversion of prefix and postfix expressions into assembly instructions.
 
-## Features
+Features
 - **Conversion Between Expressions:** The program can convert between prefix and postfix expressions.
 - **Assembly Code Generation:** Based on the input expressions, the program generates zero, one, two, or three-address assembly code.
 - **Error Handling:** Basic error handling for invalid inputs.
 
-## Installation
+Installation
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/assembly-code-generator.git
